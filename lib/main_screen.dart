@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
+import 'package:ui_tamrin/detail_khabar.dart';
 import 'package:ui_tamrin/home_screen.dart';
 
 class MainScreen extends StatefulWidget {
@@ -75,7 +76,7 @@ class _MainScreenState extends State<MainScreen> {
   List<Widget> getLayout() {
     return <Widget>[
       HomeScreen(),
-      HomeScreen(),
+      DetailKhabar(),
       HomeScreen(),
       HomeScreen(),
       HomeScreen(),
