@@ -32,7 +32,10 @@ dependencies:
   flutter:
     sdk: flutter
   animated_button_bar: ^0.0.2
+  flutter_image_slideshow: ^0.1.4
+  chip_list: ^2.3.3+8
 
+  text_scroll: ^0.1.0
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.

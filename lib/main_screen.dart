@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:ui_tamrin/detail_khabar.dart';
 import 'package:ui_tamrin/home_screen.dart';
+import 'package:ui_tamrin/store_page.dart';
 
 class MainScreen extends StatefulWidget {
   MainScreen({Key? key}) : super(key: key);
@@ -79,8 +80,8 @@ class _MainScreenState extends State<MainScreen> {
       DetailKhabar(),
       HomeScreen(),
       HomeScreen(),
-      HomeScreen(),
-      HomeScreen(),
+      StorePage(),
+      HomeScreen()
     ];
   }
 }
